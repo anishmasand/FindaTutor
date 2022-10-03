@@ -7,11 +7,15 @@ const App = () => {
     return(
         // containers center everything
             // Typography for texts but with a good font
+                //Grow com
        <Container maxidth="lg">
         <AppBar position="static" color="inherit">
             <Typography variant='h2' align="center">FindaTutor</Typography> 
             <img src={FindaTutor} alt = "FindaTutor" height="60"/>
         </AppBar>
+        <Grow in> 
+
+        </Grow>
 
        </Container>
     );
