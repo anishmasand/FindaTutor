@@ -10,4 +10,7 @@ import App from './App';
 
 const store = createStore(reducers,compose(applyMiddleware(thunk)))
 
-ReactDOM.render(<App/>, document.getElementById('root')); //we render this inside the "root" id which is the 'id' of our main div in the main html page.
+ReactDOM.render(
+    <App/>, document.getElementById('root')); //we render this inside the "root" id which is the 'id' of our main div in the main html page.
+
+    
